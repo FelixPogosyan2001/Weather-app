@@ -1,0 +1,52 @@
+#photo_1{
+  width:420px;
+  height: 400px;
+  z-index:0;
+
+}
+body{
+   overflow:hidden
+}
+.App{
+  background-color: #3B3E52;
+  height:400px;
+  overflow:hidden
+}
+@font-face{
+  src:url('fonts/robotoslabregular.woff2');
+  font-family:'Robot'
+}
+#lists li{
+  color:#344965;
+  font-family:'Robot'
+}
+#lists #one:hover{
+  font-size:20px;
+  color:#000000
+}
+#lists #two:hover{
+  font-size:20px;
+  color:#000000
+}
+#lists #three:hover{
+  font-size:20px;
+  color:#000000
+}
+#lists #four:hover{
+  font-size:20px;
+  color:#000000
+}
+#root{
+  align:center
+}
+#text{
+  z-index:5;
+  color:white;
+  position:relative;
+  right:140px;
+  top:130px;
+  font-family:'Robot'
+}
+#city{
+  padding-left:3px
+}
